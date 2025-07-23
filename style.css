@@ -1,0 +1,153 @@
+*{
+    font-family: "inter";
+    margin: 0px;
+
+}
+#menusuperior{
+    background-color: #303030;
+   padding: 25px;
+ 
+}
+
+#titulo-principal{
+    color: white;
+    margin-left: 30px;
+    margin-top: 150px;
+    background-color: #303030;
+    font-size: 40px ;
+    
+}
+
+#titulo-secundario{
+    color: white;
+    margin-left: 30px;
+    margin-top: 15px;
+    margin-bottom: 50px;
+    padding-bottom: 40px;
+    font-size: small;
+    background-color: #303030;
+           
+}
+
+#sala{
+    width: 410px;
+    height: 505px; 
+   
+
+}
+
+#menuinformacional{
+   background-color: #f9f9f9; 
+   display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    margin: 0px; 
+    padding: 100px;
+    font-size: 20px;  
+
+      
+}
+
+.texto-informativo{
+ display: flex;
+ align-items: center;
+ font-size: 25px;
+}
+
+#tituloimagem{
+    background-color: white;
+    margin: 30px;
+    margin-top:100px ;
+    font-family: "inter";
+
+}
+#textoimagem{
+    background-color: white;
+    margin: 30px;
+    font-size: larger;   
+    
+}
+
+#imagemsala{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    background-color: white;
+    margin: 50px 25px 50px 100px;
+}
+#formulario{
+    text-align: center;
+    background-color: #303030;
+
+}
+
+#tituloformulario{
+    color: white;
+    font-size: 25px;
+    padding: 45px;
+}
+
+input{
+    width: 300px;
+    height: 40px;
+    background-color: white;
+    margin: 15px;
+    border: 0px;
+    border-radius:5px ;
+    padding-left: 10px;
+
+}
+
+button{
+    background-color: #c07212;
+    color: white;
+    height: 40px;
+    width: 250px;
+    border: 0px;
+    border-radius:5px ;
+    margin-bottom: 50px;
+    font-weight: bolder;
+    cursor: pointer;
+    
+}
+
+button:hover{
+    background-color: #bd853c;
+    color: white;
+    transform: translateY(-7px) ;
+    box-shadow: 0px 15px 20px;
+        background-color: #a28c6e;
+        transition-duration: 0.5s;
+        
+}
+
+
+.numero {
+    display: block;
+    font-size: 48px;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.descricao {
+    font-size: 16px;
+    color: #666;
+    font-weight: 400;
+}
+
+.estatistica {
+    text-align: left;
+    flex: 1;
+    min-width: 200px;
+}
+
+#caixamenu {
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 60px 40px;
+    flex-wrap: wrap;
+    margin-left: 100px;
+}
